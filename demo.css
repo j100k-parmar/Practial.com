@@ -1,0 +1,608 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.media {
+    width: 100%;
+    height: 50px;
+    background-color: navy;
+    color: white;
+}
+
+.media p {
+    float: left;
+    padding: 15px 0 0 160px;
+}
+
+.social {
+    float: right;
+    margin-right: 200px;
+}
+
+.social i {
+    padding: 10px 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    /*	display: flex;*/
+}
+
+.menu {
+    float: right;
+    margin-top: -25px;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 90px;
+}
+
+.logo img {
+    padding: 10px 20px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+}
+
+.left-heading {
+    width: 50%;
+    margin: 120px 0 0 100px;
+}
+
+.left-heading p {
+    padding: 17px 0 0 195px;
+}
+
+.left-heading h2 {
+    padding: 17px 0 0 195px;
+}
+
+.play {
+    padding: 17px 0 0 195px;
+}
+
+.play i {
+    font-size: 50px;
+}
+
+.message {
+    width: 60%;
+}
+
+form {
+    width: 45%;
+    height: 400px;
+    margin-top: 100px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+.message h2 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.message p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.details input {
+    width: 240px;
+    height: 33px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 143px;
+    height: 33px;
+    margin: 15px 0 0 110px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    background: navy;
+    border: none;
+}
+
+#banner {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    color: white;
+}
+
+.qa-category {
+    width: 100%;
+}
+
+.qa-row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.quality {
+    width: 220px;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(177, 198, 214);
+}
+
+.qa-title {
+    display: flex;
+    margin-left: 160px;
+}
+
+.title-1 {
+    width: 10%;
+}
+
+.title-2 {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.quality i {
+    font-size: 34px;
+    float: left;
+    color: steelblue;
+}
+
+.quality h3 {
+    width: 150px;
+    padding-left: 55px;
+}
+
+.software_testing {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 55px;
+}
+
+#software {
+    width: 100%;
+    background-color: rgb(202, 190, 190);
+}
+
+.qa-service {
+    width: 30%;
+}
+
+.qa-service p {
+    padding-top: 15px;
+}
+
+.qa-service-team {
+    width: 50%;
+}
+
+.qa-service-team img {
+    width: 100%;
+    margin-left: 40%;
+}
+
+.btn-test {
+    width: 135px;
+    height: 31px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 2px solid steelblue;
+    color: steelblue;
+}
+
+.qa-mobile-testing img {
+    width: 30%;
+}
+
+.qa-mobile {
+    width: 30%;
+}
+
+.qa-mobile p {
+    padding-top: 15px;
+}
+
+.emp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#emp {
+    width: 100%;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin-left: 70px;
+    width: 13%;
+    border: 2px solid steelblue;
+}
+
+.card img {
+    width: 100%;
+}
+
+.preview {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    color: white;
+}
+
+.client {
+    text-align: center;
+    color: white;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.review {
+    width: 300px;
+    height: 300px;
+}
+
+.review img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    float: right;
+    margin-right: 80px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.btn-view {
+    width: 135px;
+    height: 31px;
+    background-color: lawngreen;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 2px solid steelblue;
+    color: white;
+    margin-left: 625px;
+}
+
+.last_section {
+    display: flex;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(18, 18, 51);
+}
+
+.copyright {
+    float: right;
+    color: white;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+
+.automation {
+    width: 60%;
+}
+
+.last_section i {
+    font-size: 20px;
+    color: steelblue;
+}
+
+.last_section h3 {
+    float: right;
+    margin-right: 20px;
+}
+
+.submition {
+    margin-bottom: 20px;
+}
+
+.planning {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width:428px) {
+    .container {
+        width: 100%;
+    }
+    .social {
+        float: none;
+        margin-left: 12px;
+    }
+    .social i {
+        padding: 22px 10px;
+    }
+    .media {
+        height: 76px;
+    }
+    .media p {
+        float: none;
+        padding: 9px 0 0 21px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo img {
+        padding: 12px 20px;
+    }
+    form {
+        margin: auto;
+        width: 75%;
+    }
+    .message {
+        width: 100%;
+    }
+    .details input {
+        margin-left: 38px;
+    }
+    .btn {
+        margin-left: 90px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    #banner {
+        height: auto;
+    }
+    .left-heading {
+        width: 100%;
+        margin: 20px 0 0 -80px;
+    }
+    .qa-title {
+        margin-left: 21px;
+    }
+    .qa-row1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quality {
+        width: 390px;
+        margin-right: 0;
+    }
+    .title-1 {
+        width: 30%;
+    }
+    .qa-mobile {
+        width: 100%;
+    }
+    .qa-mobile h3 {
+        text-align: center;
+    }
+    .qa-mobile p {
+        padding: 15px;
+    }
+    .qa-mobile-testing img {
+        width: 100%;
+    }
+    .qa-service-team {
+        width: 100%;
+    }
+    .qa-service-team img {
+        width: 395px;
+        margin-left: 0;
+    }
+    .qa-service {
+        width: 425px;
+    }
+    .client {
+        width: 425px;
+    }
+    .last_section {
+        flex-direction: column;
+    }
+    .last_section i {
+        float: left;
+    }
+    .last_section h3 {
+        float: none;
+        padding-left: 80px;
+    }
+    .automation {
+        width: 100%;
+    }
+    .picture img {
+        width: 100%;
+    }
+    .software_testing {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .card {
+        margin-left: 5px;
+        width: 31%;
+    }
+    .btn-view {
+        margin: 288px 0 0 137px;
+    }
+    .btn-test {
+        margin-bottom: 20px;
+        margin-left: 140px;
+    }
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin-left: 101px;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+span {
+    float: right;
+    display: none;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width:428px) {
+    span {
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 0;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:428px) and (max-width:770px) {
+    .media p {
+        padding: 15px 0 0 44px;
+    }
+    .social {
+        margin-right: 62px;
+        padding-top: 10px;
+    }
+    .logo img {
+        padding: 10px 0px;
+    }
+    .menu ul li {
+        padding-right: 35px;
+    }
+    .left-heading {
+        width: 70%;
+        margin: 102px 0 0 -85px;
+    }
+    .message {
+        width: 60%;
+    }
+    form {
+        width: 92%;
+    }
+    .title-1 {
+        width: 22%;
+    }
+    .title-2 {
+        width: 80%;
+    }
+    .qa-title {
+        margin-left: 10px;
+    }
+    .software_testing {
+        padding: 0;
+    }
+    .qa-service {
+        width: 45%;
+    }
+    .qa-service-team img {
+        margin-left: 5%;
+    }
+    .qa-mobile-testing img {
+        width: 60%;
+    }
+    .review {
+        height: auto;
+    }
+    .btn-view {
+        margin-left: 300px;
+    }
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:1028px) {
+    .left-heading {
+        width: 45%;
+        margin: 105px 0 0 55px;
+    }
+    .message {
+        width: 35%;
+    }
+    form {
+        width: 100%;
+        height: 396px;
+        margin-top: 101px;
+    }
+    .qa-title {
+        margin-left: 46px;
+    }
+    .title-1 {
+        width: 15%;
+    }
+    .title-2 {
+        width: 75%;
+    }
+    .software_testing {
+        padding: 0;
+    }
+}
