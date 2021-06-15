@@ -1,0 +1,584 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+#social {
+    width: 100%;
+    background-color: navy;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.mail {
+    width: 80%;
+    float: left;
+    color: white;
+}
+
+.media i {
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    background-color: #948d8d;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.menu ul {
+    width: 50%;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+    clear: both;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+}
+
+.heading {
+    width: 60%;
+    color: white;
+    padding: 50px 0;
+}
+
+.heading h1 {
+    padding: 10px 0;
+}
+
+.play i {
+    font-size: 70px;
+    padding: 20px 0;
+}
+
+.form {
+    width: 20%;
+    margin: 3% 0 4% 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.form p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.data {
+    text-align: center;
+}
+
+.data input {
+    margin: 10px 0;
+}
+
+.btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(86, 86, 138);
+    color: white;
+}
+
+.title {
+    margin-top: 50px;
+    display: flex;
+}
+
+.title p {
+    border-left: 2px solid gray;
+    padding: 20px 0 0 15px;
+}
+
+.program {
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 10px 10px;
+    background-color: rgb(224, 219, 219);
+}
+
+.program i {
+    font-size: 33px;
+    padding: 15px;
+    color: navy;
+    float: left;
+}
+
+.program p {
+    padding: 15px;
+    text-align: justify;
+}
+
+.service-1 {
+    width: 100%;
+    display: flex;
+}
+
+.details {
+    width: 40%;
+    padding: 60px;
+}
+
+.details p {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.btn_contact {
+    margin-top: 20px;
+    width: 130px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px solid steelblue;
+    color: steelblue;
+}
+
+.team {
+    width: 45%;
+    margin-top: 73px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.service-2 {
+    /* width: 100%; */
+    display: flex;
+    padding: 50px;
+}
+
+#service-2 {
+    width: 100%;
+    background-color: rgb(223 223 239);
+}
+
+.tablate {
+    width: 50%;
+}
+
+.tablate img {
+    width: 50%;
+    margin: auto;
+}
+
+.service-3 {
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    width: 35%;
+}
+
+.info p {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.service_info {
+    width: 40%;
+    padding: 20px;
+}
+
+.service_info p {
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.software_testing {
+    width: 50%;
+}
+
+.software_testing img {
+    width: 100%;
+}
+
+#testimonials {
+    width: 100%;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client_info {
+    display: flex;
+    justify-content: center;
+}
+
+.client {
+    width: 20%;
+    margin: 20px 30px;
+}
+
+.client img {
+    width: 100%;
+}
+
+.tag {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tag i {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.review_note {
+    color: white;
+    width: 30%;
+    padding: 0 15px;
+}
+
+.review_note img {
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+}
+
+.review_note h4 {
+    padding: 24px 0 0 100px;
+}
+
+.review_note p {
+    padding-top: 65px;
+}
+
+.testimonials h1 {
+    color: white;
+    text-align: center;
+}
+
+.btn_view {
+    text-align: center;
+}
+
+.view {
+    border-radius: 13px;
+    width: 130px;
+    padding: 6px 0;
+    background: greenyellow;
+    border: none;
+    color: white;
+    margin: 50px 0;
+}
+
+.p {
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    float: left;
+    width: 25%;
+    margin-top: 40px;
+}
+
+.submission {
+    margin: 30px 0;
+}
+
+.review i {
+    float: left;
+    font-size: 30px;
+    padding: 10px 20px 20px 0;
+    color: blue;
+}
+
+.roadmap {
+    width: 25%;
+    float: left;
+}
+
+.roadmap i {
+    float: left;
+    font-size: 30px;
+    padding: 10px 20px 20px 0;
+    color: blue;
+}
+
+.pic img {
+    border-radius: 50px;
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 23, 43);
+    color: white;
+}
+
+footer p {
+    float: right;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+footer i {
+    position: relative;
+    left: 95%;
+    top: 10px;
+    font-size: 32px;
+}
+
+@media only screen and (max-width:428px) {
+    .container {
+        width: 90%;
+    }
+    .social {
+        padding: 10px 0;
+    }
+    .media i {
+        padding: 5px;
+    }
+    .logo {
+        width: 35%;
+        margin-top: 10px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 85%;
+    }
+    .form {
+        width: 75%;
+        margin: 3% 0 8% 0px;
+    }
+    .btn {
+        margin: 5px 0 15px 0;
+    }
+    .play {
+        margin: auto;
+        width: 80px;
+    }
+    .title {
+        flex-direction: column;
+    }
+    .title h1 {
+        text-align: center;
+    }
+    .title p {
+        border-left: none;
+        border-top: 2px solid gray;
+    }
+    .activities {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .program {
+        width: 80%;
+    }
+    .service-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details {
+        width: 80%;
+        text-align: center;
+    }
+    .team {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .service-2 {
+        flex-direction: column;
+        padding: 35px;
+        width: 80%;
+        justify-content: center;
+        align-items: center
+    }
+    .tablate {
+        width: 80%;
+    }
+    .tablate img {
+        width: 100%;
+    }
+    .service-3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .info {
+        width: 80%;
+        text-align: center;
+    }
+    .service_info {
+        width: 80%;
+    }
+    .software_testing {
+        width: 80%;
+    }
+    .client {
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .client_info {
+        flex-direction: column;
+    }
+    .tag {
+        display: none;
+    }
+    .p {
+        width: auto;
+    }
+    .reviews {
+        align-items: center;
+        flex-direction: column;
+    }
+    .review_note {
+        width: 80%;
+        text-align: justify;
+        margin-top: 20px;
+        border: 2px solid;
+        padding: 6px;
+        border-radius: 25px;
+    }
+    .review {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .roadmap {
+        width: 100%;
+    }
+    .pic {
+        width: 80%;
+        margin: auto;
+    }
+    .pic img {
+        width: 100%;
+        padding: 0;
+    }
+    footer p {
+        text-align: center;
+        float: none;
+        margin-right: 0;
+    }
+    footer i {
+        left: 91%;
+        top: -35px;
+    }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 770px) {
+    .form {
+        width: 50%;
+        margin: 3% 0 13% 0px;
+    }
+    .program {
+        height: 300px;
+    }
+    .details {
+        width: 50%;
+        padding: 20px;
+    }
+    .team {
+        width: 45%;
+        margin-top: 218px;
+    }
+    .tablate {
+        width: 45%;
+        margin: 175px 44px 0 0;
+    }
+    .tablate img {
+        width: 100%;
+    }
+    .info {
+        width: 75%;
+    }
+    .service_info {
+        width: 60%;
+        padding: 5px;
+    }
+    .review {
+        width: 50%;
+    }
+    .roadmap {
+        width: 50%;
+    }
+    .pic {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:1027px) {
+    .form {
+        width: 35%;
+    }
+    .program {
+        height: 235px;
+    }
+    .review {
+        width: 50%;
+    }
+    .roadmap {
+        width: 50%;
+    }
+}
